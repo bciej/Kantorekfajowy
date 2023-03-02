@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kantorekfajowy
 {
-    internal class Waluta
+    public class Waluta
     {
         private int id;
         public int getId()
@@ -61,6 +61,12 @@ namespace Kantorekfajowy
             this.id = id;
             this.name = name;
             this.description = description;
+            this.price = price;
+        }
+
+        public Waluta(string name, double price)
+        {
+            this.name = name;
             this.price = price;
         }
     }

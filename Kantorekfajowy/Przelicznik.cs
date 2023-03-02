@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kantorekfajowy
 {
-    internal class Przelicznik
+    public class Przelicznik
     {
         public static double przelicz(Waluta waluta1, Waluta waluta2, double kwota)
         {

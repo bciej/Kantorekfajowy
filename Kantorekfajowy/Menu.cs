@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kantorekfajowy
 {
-    internal class Menu
+    public class Menu
     {
         Waluta[] waluty = { new Waluta(1, "Euro", "Euro jest prawnym środkiem płatniczym w 20 państwach tworzących w Unii Europejskiej strefę euro a obejmującą swym obszarem około 341 mln Europejczyków. Waluta euro używana jest także w 11 krajach i terytoriach nienależących do UE.", 1.00), new Waluta(2, "Dolar amerykański", "oficjalna waluta Stanów Zjednoczonych, Portoryko, Mikronezji, Marianów Północnych, Palau, Wysp Marshalla, Panamy, Ekwadoru (od 2000), Salwadoru (od 2001), Timoru Wschodniego, Zimbabwe (od 2009), Turks i Caicos, Bonaire, Saby i Sint Eustatius od 2011 roku. Jeden dolar amerykański dzieli się na sto centów amerykańskich. Zapisuje się go za pomocą symbolu $.", 0.94), new Waluta(3, "Funt brytyjski", "Oficjalną jednostką monetarną w Wielkiej Brytanii jest funt szterling, jego symbol międzynarodowy to GBP. Jeden funt dzieli się na 100 pensów. W obiegu znajdują się monety o nominałach: 1, 2, 5, 10, 20 i 50 pensów oraz 1 i 2 funty. Banknoty znajdujące się w obiegu to: 5, 10, 20 i 50 funtów oraz 1 i 100 funtów tylko w Szkocji.", 1.13), new Waluta(4, "Jen japoński", "Jen japoński to jedna z najważniejszych walut w międzynarodowym systemie walutowym – zajmuje on piąte miejsce w prowadzonych transakcjach międzynarodowych, ustępując tylko dolarowi, euro, funtowi brytyjskiemu i od niedawna chińskiemu juanowi.", 0.0069)};
         public void konwersjaMenu()
